@@ -26,7 +26,7 @@ applyBtn.addEventListener("click", async () => {
 
   applyBtn.textContent = "Applying...";
   try {
-    const prompt = "Convert this photo to cartoon neon green style, keep original pose and face, replace eyes with glowing green dollar bag icons, add money bags logo in the background.";
+    const prompt = "Keep the original photo unchanged. Only modify the eyes to glow with a neon green dollar bag symbol inside them. Keep everything else, including style, color, pose, and background, exactly as in the original.";
     const response = await fetch("https://gangbags1-backend-3.onrender.com/generate", {
       method: "POST",
       headers: {
