@@ -27,7 +27,7 @@ applyBtn.addEventListener("click", async () => {
   applyBtn.textContent = "Applying...";
   try {
     const prompt = "Convert this photo to cartoon neon green style, keep original pose and face, replace eyes with glowing green dollar bag icons, add money bags logo in the background.";
-    const response = await fetch("https://gangbags1-backend-2.onrender.com", {
+    const response = await fetch("https://gangbags1-backend-3.onrender.com", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
